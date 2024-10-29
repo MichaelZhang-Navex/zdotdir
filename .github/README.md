@@ -27,14 +27,10 @@ Clone this project to `$ZDOTDIR`, and then make `~/.zshenv` source `$ZDOTDIR/.zs
 ```zsh
 # clone this project
 ZDOTDIR=~/.config/zsh
-git clone --branch kickstart https://github.com/getantidote/zdotdir $ZDOTDIR
+git clone --branch p10k https://github.com/MichaelZhang-Navex/zdotdir $ZDOTDIR
 
-# source the .zshenv from ZDOTDIR
-[[ -f ~/.zshenv ]] && mv -f ~/.zshenv ~/.zshenv.bak
-echo ". $ZDOTDIR/.zshenv" > ~/.zshenv
-
-# start a new zsh session
-zsh
+rm ~/.zshenv
+cp ./zshrnv ~/.zshenv
 ```
 
 [antidote]: https://getantidote.github.io
