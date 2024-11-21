@@ -31,6 +31,8 @@ git clone https://github.com/MichaelZhang-Navex/zdotdir $ZDOTDIR
 
 rm ~/.zshenv
 cp ~/.config/zsh/zshenv ~/.zshenv
+
+curl https://mise.run | sh
 ```
 
 [antidote]: https://getantidote.github.io
