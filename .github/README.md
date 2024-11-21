@@ -30,7 +30,7 @@ ZDOTDIR=~/.config/zsh
 git clone https://github.com/MichaelZhang-Navex/zdotdir $ZDOTDIR
 
 rm ~/.zshenv
-cp ~/.config/zsh/zshrnv ~/.zshenv
+cp ~/.config/zsh/zshenv ~/.zshenv
 ```
 
 [antidote]: https://getantidote.github.io
